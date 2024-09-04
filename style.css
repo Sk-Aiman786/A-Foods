@@ -250,7 +250,6 @@ header .btn-primary:focus{
 }
 #Menu{
     padding: 50px 0 75px 0;
-    background-color: #ededed;
 
 }
 #Menu .title-menu .color{
@@ -367,7 +366,6 @@ header .btn-primary:focus{
     border-radius: 50%;
 }
 #Contact{
-    background-color: #ededed;
     padding: 50px 0;
 }
 #Contact .title-contact .color{
@@ -400,7 +398,7 @@ header .btn-primary:focus{
     padding: 6px 19px;
     border: none;
     font-size: 16px;
-    box-shadow: 0 3px 20px 0 rgb(0 0 0 /12%);
+    box-shadow: 0 3px 20px 0 rgb(0 0 0 /20%);
 }
 
 #Contact .textarea{
