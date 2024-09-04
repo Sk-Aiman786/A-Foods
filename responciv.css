@@ -1,0 +1,340 @@
+/* 
+====================
+-----Responcive-----
+==================== 
+*/
+@media(max-width:1199px){
+  #Home h1 {
+    font-size: 44px;
+  }
+}
+@media(max-width:1024px){
+  .About-us-2 .card .btn-secondary {
+    margin-left: 38%;
+  }
+  #Home h1 {
+    font-size: 44px;
+  }
+}
+
+
+@media(max-width:992px){
+    #Home .banner img {
+        width: 70%;
+      }
+      #Home h2 {
+        font-size: 36px;
+        padding-bottom: 5px;
+      }
+      #Home h1 {
+        font-size: 40px;
+      }
+      #Home{
+        padding: 0;
+      }
+      #Home .banner{
+      max-width: 85%;
+      width: 85%;
+      }
+    #About-us .About-us-2 .card{
+        position: unset;
+        top: unset;
+        bottom:unset;
+        left: unset;
+        right: unset;
+        z-index: unset;
+    }
+    #About-us .About-us-2 .title-about h5{
+        font-size: 40px;
+        color: #ffffff;
+        text-decoration: underline;
+    }
+    .About-us-2 img{
+        width: unset;
+        height: unset;
+        border-radius: 5px 5px 5px 5px;
+        transition: all 3s;
+    }
+    #About-us .About-us-2{
+        background-color: #433c3c;
+        padding: 25px 0;
+    }
+    #About-us .About-us-2 .about-img{
+        padding-bottom: 50px;
+        width: 100%;
+        text-align: center;
+    }
+    #About-us .About-us-2{
+        background-color: #433c3c;
+        padding-bottom:50px ;
+    }
+    #About-us .about-img{
+        padding:unset;
+    }
+
+    #Reviwe   .carousel-item{
+        padding: 150px 100px;
+       
+    }
+    #Reviwe .carousel-item .carousel-caption img {
+        width: 25%;
+        border-radius: 50%;
+      }
+    #Reviwe .carousel-item .carousel-caption p {
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 5px;
+        padding-bottom: unset;
+      }
+    #Reviwe .carousel-item .carousel-caption h5{
+        font-size: 26px;
+        margin-top: 10px;
+       margin-bottom:20px ;
+    }
+    #About-us .section-2 .revo h5 {
+        color: #ffffff;
+        font-size: 18px;
+        padding-top: 0px;
+      }
+    #About-us .section-2 .revo p {
+        color: #ffffff;
+        font-size: 14px;
+        text-transform: uppercase;
+        padding-bottom: 0px;
+      }
+    #Menu .card .ditles .about-7 {
+        overflow: hidden;
+        text-align: center;
+    }
+    #Menu .card .ditles .about-6 h4 {
+        font-size: 19px;
+        color: #192a56;
+        padding: 0;
+      }
+     #Menu .card .ditles .about-6 p {
+        font-size: 12px;
+        line-height: 14px;
+        padding: 0;
+      }
+    
+      #Menu .card .ditles .about-6 h5{
+        font-size: 16px;
+        padding: 0;
+        margin: 0;
+      }
+ 
+    #Menu .card .ditles .about-6 .btn-primary {
+        background-color: #e93d3d;
+        color: #ffffff;
+        font-size: 14px;
+        border: none;
+        width: 101px;
+        height: auto;
+        border-radius: 20px 20px 20px 20px;
+        
+        margin: 0 28px 0 0;
+      }
+      .About-us-2 .card .btn-secondary {
+        margin-left: 43%;
+      } 
+    footer li a{
+        font-size: 21px;
+    }
+    footer .heading{
+        font-size: 27px;
+    }
+    #Home .btn-primary{
+      border:3px solid #e93d3d ;
+      background-color: transparent;
+      color: #000000;
+      font-size: 19px;
+      margin-top: 20px;
+      width: 150px;
+      height: 100px;
+      height: auto;
+      border-radius: 20px 20px 20px 20px; 
+  }
+  #Home .btn-primary:hover{
+      background-color:#e93d3d ;
+      color: #ffffff;
+      font-size: 21px;
+      border: none;
+      width: 150px;
+      height: auto;
+      border-radius: 20px 20px 20px 20px;
+  
+    
+  }
+  #Home .btn-primary:focus{
+      background-color:#e93d3d ;
+      color: #ffffff;
+      font-size: 21px;
+      border: none;
+      width: 150px;
+      height: auto;
+      border-radius: 20px 20px 20px 20px;
+  }
+  #Home .btn-secondary{
+      background-color:#e93d3d ;
+      color: #ffffff;
+      margin-top: 20px;
+      font-size: 21px;
+      border: none;
+      width: 150px;
+      height: auto;
+      border-radius: 20px 20px 20px 20px;
+  }
+  #Home .btn-secondary:hover{
+      border:3px solid #e93d3d ;
+      background-color: transparent;
+      color: #000000;
+      width: 150px;
+      height: auto;
+      border-radius: 20px 20px 20px 20px; 
+  }
+  #Home .btn-secondary:focus{
+      border:2px solid #e93d3d ;
+      background-color: transparent;
+      color: #000000;
+      width: 150px;
+      height: auto;
+      border-radius: 20px 20px 20px 20px; 
+  }
+
+}
+
+@media(max-width:767px){
+  #Home h1 {
+    font-size: 23px;
+  }
+  #Home h2 {
+    font-size: 23px;
+    padding-bottom: 5px;
+  }
+  #Home .btn-primary{
+    border:3px solid #e93d3d ;
+    background-color: transparent;
+    color: #000000;
+    font-size: 14px;
+    margin-top: unset;
+    width: 108px;
+    height: unset;
+    height: unset;
+    border-radius: 20px 20px 20px 20px; 
+}
+#Home .btn-primary:hover{
+    background-color:#e93d3d ;
+    color: #ffffff;
+    font-size: 14px;
+    border: none;
+    width: 108px;
+    height: auto;
+    border-radius: 20px 20px 20px 20px;
+
+  
+}
+#Home .btn-primary:focus{
+    background-color:#e93d3d ;
+    color: #ffffff;
+    font-size: 14px;
+    border: none;
+    width: 108px;
+    height: auto;
+    border-radius: 20px 20px 20px 20px;
+}
+#Home .btn-secondary{
+    background-color:#e93d3d ;
+    color: #ffffff;
+    margin-top: unset;
+    font-size: 14px;
+    border: none;
+    width: 108px;
+    height: auto;
+    border-radius: 20px 20px 20px 20px;
+}
+#Home .btn-secondary:hover{
+    border:3px solid #e93d3d ;
+    background-color: transparent;
+    color: #000000;
+    width: 108px;
+    height: unset;
+    border-radius: 20px 20px 20px 20px; 
+}
+#Home .btn-secondary:focus{
+    border:2px solid #e93d3d ;
+    background-color: transparent;
+    color: #000000;
+    width: 108;
+    height: unset;
+    border-radius: 20px 20px 20px 20px; 
+}
+header .navbar .navbar-brand img{
+  width: 125px;
+  height: 60px;
+
+
+}
+.About-us-2 img {
+  width: 94%;
+  height: unset;
+  border-radius: 5px 5px 5px 5px;
+  transition: all 3s;
+  margin: 10px;
+}
+.About-us-2 .card .btn-secondary {
+  margin-left: 37%;
+}
+#Reviwe .carousel-item {
+  padding: 130px 100px;
+}
+#Reviwe .carousel-item .carousel-caption img {
+  width: 30%;
+  border-radius: 50%;
+}
+#Reviwe .carousel-item .carousel-caption h5 {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+#Contact .title-contact h5 {
+  font-size: 30px;
+  color: #000000;
+  text-decoration: underline;
+  padding-bottom: 40px;
+}
+#Reviwe .title-reviwe h5 {
+  font-size: 20px;
+  color: #95ece4;
+  text-decoration: underline;
+}
+#Menu .title-menu h5 {
+  font-size: 30px;
+  color: #000000;
+  text-decoration: underline;
+}
+@media (max-width: 992px) {
+  #About-us .About-us-2 .title-about h5 {
+    font-size: 30px;
+    color: #ffffff;
+    text-decoration: underline;
+  }
+}
+#Reviwe .carousel-item .carousel-caption p {
+  font-size: 11px;
+  line-height: 16px;
+  margin-top: 5px;
+  padding-bottom: unset;
+}
+#Reviwe .carousel-indicators [data-bs-target] {
+  width: 7px;
+  height: 7px;
+  background-color: #ff0000;
+  border-radius: 50%;
+}
+  
+}
+@media(max-width:330px){
+  .About-us-2 .card .btn-secondary {
+    margin-left: 33%;
+  }
+}   
