@@ -1,0 +1,224 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Lato", sans-serif;
+}
+.clear{
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color: none;
+}
+header{
+    padding: 5px 0;
+}
+header.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+    color: rgb(205, 26, 26);
+    font-size: 20px;
+    text-decoration: underline rgb(205, 26, 26) ;
+  }
+header.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(205, 26, 26);
+}
+header .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+    color: rgb(205, 26, 26);
+    font-size: 20px
+  }
+header  .navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.55);
+    font-size: 20px
+}
+header  .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(205, 26, 26);
+    border: 2px  rgb(205, 26, 26);;
+}
+#slidUp{
+    position: fixed;
+    right: 3%;
+    bottom: 12%;
+    height: 2.2rem;
+    width: 2.5rem;
+    border-radius: 0.25rem;
+    text-align: center;
+    cursor: pointer;
+    z-index: 500;
+    background-color: #e93d3d;
+    -webkit-transition: all 0.4s ease-in-out 0s ;
+    transition: all 0.4s ease-in-out 0s;
+    display: none;
+}
+#slidUp span{
+    height: 2.625rem;
+}
+#slidUp.slideStart{
+    display:block;
+}
+header .nav-item{
+    padding: 0 10px;
+}
+header .btn-primary{
+    background-color:#e93d3d ;
+    color: #ffffff;
+    font-size: 17px;
+    border: none;
+    width: 120px;
+    height: auto;
+    border-radius: 20px 20px 20px 20px;
+}
+header .btn-primary:hover{
+    border:3px solid #e93d3d ;
+    background-color: transparent;
+    color: #000000;
+    width: 120px;
+    height: auto;
+    border-radius: 20px 20px 20px 20px; 
+}
+
+header .btn-primary:focus{
+    border:2px solid #e93d3d ;
+    background-color: transparent;
+    color: #000000;
+    width: 120px;
+    height: auto;
+    border-radius: 20px 20px 20px 20px; 
+}
+.banner{
+    background-image: url(../images/index-1-1920x1080.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+.banner h3{
+    font-size: 26px;
+    color: #ffffff;
+}
+.banner a{
+    
+    color: #ffffff;
+}
+.banner a:hover{
+    color: #ffffff;
+}
+.banner .fa-arrow-left{
+    font-size: 21px;
+}
+.menu-burger{
+    padding: 100px 0;
+    display: block;
+}
+.menu-burger img {
+    width: 80%;
+    height: 100%;
+  }
+footer{
+    padding: 50px 0;
+    background-color: #ff3434;
+}
+footer .form-group{
+    display: flex;
+}
+footer .icon{
+    display: flex;
+}
+footer ul{
+    list-style: none;
+}
+footer p{
+    font-size: 21px;
+    list-style: 25px;
+    color: #ffffff;
+}
+footer #sub input{
+    width: 60%;
+    border-radius:unset;
+    
+}
+footer li a{
+    text-decoration: none;
+    font-size: 19px;
+    color: #ffffff;
+}
+footer h5{
+    font-size: 23px;
+}
+footer li a:hover{
+    color: #49bcf4;
+}
+footer .form-control{
+    height: 55px;
+    width: 70%;
+    padding: 2px 19px;
+    border: none;
+    font-size: 16px;
+    box-shadow: 0 3px 20px 0 rgb(0 0 0 /12%);
+}
+footer .form-control:focus{
+    border: none;
+    outline: none;
+}
+footer .btn-primary{
+    background-color: #b40000;
+  color: #ffffff;
+  font-size: 21px;
+  border: none;
+  width: 120px;
+  height: auto;
+}
+footer .btn-primary:hover{
+    background-color: #b40000;
+  color: #ffffff;
+  font-size: 21px;
+  border: none;
+  width: 120px;
+  height: auto;
+}
+header .navbar-nav li:hover>.dropdown-menu{
+    display: block;
+    }
+    .navbar-light .navbar-toggler:focus{
+        box-shadow: none;
+      }
+      .navbar-light .navbar-toggler {
+        color: rgba(78, 45, 45, 0.55);
+        border: none;
+      }
+footer .btn-primary:focus{
+    background-color: #b40000;
+    outline: unset;
+  color: #ffffff;
+  font-size: 21px;
+  border: none;
+  width: 120px;
+  height: auto;
+}
+footer .copy h6{
+    color: #ffffff;
+}
+footer .copy h6 .color{
+    color: #000000;
+}
+@media(max-width:767px){
+    .banner {
+        background-image: url(../images/index-1-1920x1080.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 35px 0;
+      }
+      .banner h3 {
+        font-size: 21px;
+        color: #ffffff;
+      }
+      header .navbar .navbar-brand img {
+        width: 125px;
+        height: 60px;
+      }
+      .menu-burger {
+        padding: 50px 0;
+        display: block;
+      }
+}

@@ -1,0 +1,18 @@
+body{
+    font-size: 14px;
+}
+.main .submit-btn:focus,
+.main .logo-with:focus{
+    box-shadow: none;
+}
+.main .logo-with:hover{
+    background-color: #53535326;
+    border-color: #53535326;
+}
+.main input:focus{
+    box-shadow: none;
+}
+.main input{
+    background-color: #f5f8fa;
+    color: #5e6278;
+}
