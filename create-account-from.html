@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/logo-web.jpg">
+    <title>A-Foods</title>
+    <!-- css link -->
+     <link rel="stylesheet" href="./css/create-account.css">
+    <!-- Bootstrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <section class="main">
+        <div class="container">
+            <div class="col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4 text-center">
+                <form action="otp.html" method="post" autocomplete="on" class="rounded shadow bg-white p-5 my-5">
+                    <img src="./images/logo-web.jpg" alt="">
+                    <h3 class="text-derk fw-bolder fs-4 mb-2 mt-2">Create An Account</h3>
+                    <div class="fw-normal text-muted mb-4">
+                         Already have an account ? <a href="login-from.html" class="text-primary fw-bold text-decoration-none">Sing in here</a>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="fistName" placeholder="name@example.com" required onkeyup="fristName()">
+                        <label for="floatingInput">Fist Name</label>
+                        <section id="errorName" class="text-danger text-start"></section>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="lastName" placeholder="name@example.com" required onkeyup="lastName2()">
+                        <label for="floatingInput">Last Name</label>
+                        <section id="errorName2" class="text-danger text-start"></section>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <input type="number" class="form-control" id="phone" placeholder="name@example.com" required onkeyup="phoneNumber()">
+                        <label for="floatingInput">Phone Number</label>
+                        <section id="errorPhone" class="text-danger text-start"></section>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <input type="password" class="form-control" id="password" placeholder="Password" required>
+                        <label for="floatingPassword">Password</label>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <input type="password" class="form-control" id="confrimPassword" placeholder="Password"required onkeyup="confirmPassword()">
+                        <label for="floatingPassword">Confrim Password</label>
+                        <section id="errorPassword" class="text-danger text-start"></section>
+                      </div>
+                      <div class="form-check d-flex aline-items-center">
+                        <input class="form-check-input" type="checkbox" id="Check" required onclick="CheckTrem()">
+                        <label class="form-check-label ms-2" for="gridCheck">
+                          I Agree <a href="#">Terms And Conditions</a>
+                        </label>
+                      </div>
+                      <button type="submit" id="b1" class="btn btn-primary  submit-btn lob w-100 my-4">Continue</button>
+                      
+                </form>
+            </div>
+        </div>
+    </section>
+    <script>
+      function fristName(){
+        let name =document.getElementById('fistName').value;
+        let nameRegex =/^[a-zA-Z ]{3,10}$/;
+        let chakName= nameRegex.test(name);
+        console.log(chakName);
+        if(chakName){
+          document.getElementById('b1').disabled=false;
+          document.getElementById('errorName').innerHTML="";
+          document.getElementById('fistName').classList.remove('is-invalid');
+        }
+        else{
+          document.getElementById('b1').disabled=true;
+          document.getElementById('errorName').innerHTML="Invalid Name";
+          document.getElementById('fistName').classList.add('is-invalid');
+        }
+      }
+      function lastName2(){
+        let name2 =document.getElementById('lastName').value;
+        let nameRegex2 =/^[a-zA-Z ]{3,10}$/;
+        let chakName2= nameRegex2.test(name2);
+        console.log(chakName2);
+        if(chakName2){
+          document.getElementById('b1').disabled=false;
+          document.getElementById('errorName2').innerHTML="";
+          document.getElementById('lastName').classList.remove('is-invalid');
+        }
+        else{
+          document.getElementById('b1').disabled=true;
+          document.getElementById('errorName2').innerHTML="Invalid Name";
+          document.getElementById('lastName').classList.add('is-invalid');
+        }
+      }
+      function phoneNumber(){
+        let phone =document.getElementById('phone').value;
+        let phoneRegex =/^(?:(?:\+|0{0,2})91(\s*|[\-])?|[0]?)?([6789]\d{2}([ -]?)\d{3}([ -]?)\d{4})$/;
+        let chakPhone= phoneRegex.test(phone);
+        console.log(chakPhone);
+        if(chakPhone){
+          document.getElementById('b1').disabled=false;
+          document.getElementById('errorPhone').innerHTML="";
+          document.getElementById('phone').classList.remove('is-invalid');
+        }
+        else{
+          document.getElementById('b1').disabled=true;
+          document.getElementById('errorPhone').innerHTML="Invalid Name";
+          document.getElementById('phone').classList.add('is-invalid');
+        }
+      }
+      function confirmPassword(){
+        let password = document.getElementById('password').value;
+        let confrimPassword = document.getElementById('confrimPassword').value;
+       if(password==confrimPassword){
+        document.getElementById('b1').disabled=false;
+          document.getElementById('errorPassword').innerHTML="";
+          document.getElementById('confrimPassword').classList.remove('is-invalid');
+       }
+       else{
+        document.getElementById('b1').disabled=true;
+          document.getElementById('errorPassword').innerHTML="Worng Password";
+          document.getElementById('confrimPassword').classList.add('is-invalid');
+       }
+      }
+      function CheckTrem() {
+        if(document.getElementById('Check').checked){
+          document.getElementById('b1').disabled=false;
+           
+        }
+          else{
+          document.getElementById('b1').disabled=true;
+        }
+        
+      }
+    </script>
+    <!--Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
