@@ -296,7 +296,7 @@ footer .copy h6 .color{
         font-size: 36px;
       }
       .banner .container-fluid {
-        background-image: url(../images/index-1-1920x1080.jpg);
+        background-image: url(./images/index-1-1920x1080.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
