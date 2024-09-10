@@ -86,7 +86,7 @@ header .btn-primary:focus{
     border-radius: 20px 20px 20px 20px; 
 }
 .banner{
-    background-image: url(../images/index-1-1920x1080.jpg);
+    background-image: url(./images/index-1-1920x1080.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -203,7 +203,7 @@ footer .copy h6 .color{
 }
 @media(max-width:767px){
     .banner {
-        background-image: url(../images/index-1-1920x1080.jpg);
+        background-image: url(./images/index-1-1920x1080.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
